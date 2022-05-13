@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&family=Happy+Monkey&display=swap');
+
+:root {
+    /*  COLORS  */
+    --orange: #ff4e00;
+    --green: #8ea604;
+    --yellow: #f5bb00;
+    --mustard: #ec9f05;
+    --terracota: #bf3100;
+
+    /*  FONTS   */
+    --fresca: 'Fresca', sans-serif;
+    --happy: 'Happy Monkey', cursive;
+}
+
+body {
+    margin: 0;
+    min-height: 720px;
+}
+
+.hero-wrapper {
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1539966797022-ead5d7d43db0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    background-size: cover;
+}
+
+img {
+    width: 100px;
+}
